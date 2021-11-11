@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+}
+
+body{
+    background: url(../img/backg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #ffffffb6;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.form-title {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #3742fa;
+}
+
+.form-box button{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3741fa;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[id="submit"]:hover {
+    background: #5352ed;
+}
+
+.form-box img{
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
+
+.form-box img{
+    width: 100xp;
+    height: 100px; 
+    box-shadow: 0px 0px 5px #3742fa;
+    border-radius: 50%;
+}

@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+}
+
+body{
+    background: url(../img/backgg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box {
+    width: 400px;
+    padding: 40px;
+    background: #ffffffd8;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.form-box i{
+    color: rgb(136, 180, 127);
+    font-size: 150px;
+}
+.form-box h1{
+    padding: 20px;
+}
+
+.mb-3{
+    padding: 20px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "proyectoboletos",
+  "version": "1.0.0",
+  "description": "Venta Boletos",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron index.js"
+  },
+  "author": "Fernandez Arisel",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^15.3.1"
+  }
+}
